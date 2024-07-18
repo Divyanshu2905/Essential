@@ -1,0 +1,113 @@
+.Nav {
+    display: flex;
+    justify-content: center;
+}
+.NavBottom{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    padding-top: 10px;
+    top:4%;
+    left:14.5%;
+    width: 1080px;
+    z-index: 100;
+}
+.NavBottomMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1080px;
+    width: 100%;
+    background-color: rgba(253, 255, 254, 0.919);
+    z-index: 1000;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+}
+.NavBottom1{
+    padding-left: 1vw;
+}
+.NavBottom2{
+    padding-right: 1vw;
+}
+.NavTopMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1080px;
+    width: 100%;
+    padding-top: 5px;
+}
+.NavTop {
+    color: #b3b9bd;
+}
+.NavTop2 {
+    color: #b3b9bd;
+}
+.NavTop:hover {
+    cursor: pointer;
+    color: rgb(111, 117, 121);
+}
+.NavTop .icon {
+    transition: margin-left 0.3s ease;
+}
+.NavTop:hover .icon {
+    margin-left: 0.3vw;
+}
+
+.icon1:hover {
+    cursor: pointer;
+    color: rgb(111, 117, 121);
+}
+.NavLanguage{
+    color: #b3b9bd;
+}
+.NavLanguage:hover{
+    cursor: pointer;
+    color: rgb(111, 117, 121);
+}
+.NavOption {
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #b3b9bd;
+}
+
+.NavOption::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; 
+    width: 0;
+    height: 2px; 
+    background: linear-gradient(to right, #1fa2ff, #a6ffcb);
+    transition: width 0.3s ease-in-out;
+}
+
+.NavOption:hover::after {
+    width: 100%;
+}
+
+.NavOption:hover {
+    cursor: pointer;
+    color: rgb(111, 117, 121);
+}
+.Navtab{
+    cursor: pointer;
+    color: #b3b9bd;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.downloadspan{
+    padding-left: 15px;
+}
+
+.DownloadButton{
+    cursor: pointer;
+    background-color: #1fa2ff !important;
+    height: 45px;
+    border-radius: 4px !important;
+} 
+.DownloadButton:hover{
+    background-color: #0195ff !important;
+}

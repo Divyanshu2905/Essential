@@ -1,0 +1,18 @@
+.mySwiper{
+    cursor:grab;
+    width: 60vw;
+    position: absolute;
+    overflow-x: clip;
+    overflow-y:visible;
+    padding-left:15px;
+}
+.sliderimage{
+    height: 68vh;
+    box-shadow:0 0 5px 2px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 5px;
+}
+.sliderimage:hover {
+    transform: translateY(-5px); /* Slightly larger and moves up */
+    box-shadow: 0 0 12px 5px rgba(0, 0, 0, 0.3); /* Increased box-shadow */
+  }

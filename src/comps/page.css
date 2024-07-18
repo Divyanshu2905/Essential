@@ -1,0 +1,95 @@
+.page1 {
+    position: relative;
+    height: 100vh;
+    overflow-x:clip;
+}
+.shape1, .shape2, .shape3, .shape4 {
+    position: absolute;
+    z-index:-1;
+}
+.shape1 {
+    top: 8%;
+    left: 45%;
+    max-height: 230px;
+    transform: translateX(-50%);
+  }
+  
+  .shape2 {
+    top: 50%;
+    left: -20%;
+    max-height: 450px;
+    transform: translateY(-50%);
+  }
+  
+  .shape3 {
+    bottom: -10%;
+    left: 50%;
+    max-height: 210px;
+    transform: translateX(-50%);
+  }
+  
+  .shape4 {
+    top: 15%;
+    right: -20%;
+    max-height: 800px;
+    transform: translateY(-30%);
+  }
+  .pagepara{
+    position: absolute;
+    top:45%;
+    left:13%;
+    width: 30vw;
+  }
+  .pageheading{
+    font-size: 3.5vw;
+    font-weight: 500;
+    line-height: 4vw;
+  }
+  .pagesubhead{
+    padding-top: 1.8vw;
+    font-size: 1.45vw;
+    color: #b3b9bd;
+  }
+  .parabutton{
+    padding-top: 2vw;
+  }
+  .blackbutton, .whitebutton {
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    display: inline-block;
+  }
+  .blackbutton{
+    background-color: #000;
+    color: #fff;
+    padding: 0.8vw 1.5vw;
+    border-radius: 5px;
+    font-size: 1.1vw;
+    font-weight: 500;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+  }
+  .whitebutton{
+    background-color: #fff;
+    color: #000;
+    padding: 0.8vw 1.5vw;
+    border-radius: 5px;
+    font-size: 1.1vw;
+    font-weight: 500;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 1vw;
+  }
+  .blackbutton:hover {
+    cursor:pointer;
+    background-color: #444; /* Greyish color */
+    transform: scale(0.95); /* Slightly smaller */
+  }
+  .whitebutton:hover {
+    cursor: pointer;
+    background-color: #f2f2f2; /* Less white */
+    transform: scale(0.95); /* Slightly smaller */
+  }
+  .sliderdiv{
+    position:absolute;
+    top:-40%;
+    right:-10%;
+  }
+  
+
